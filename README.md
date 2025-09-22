@@ -1,4 +1,4 @@
-# 🌍 TraWell - Travel Recommendation Platform
+
 
 <div align="center">
 
@@ -14,11 +14,13 @@
 
 </div>
 
-## 📖 Overview
+#  TraWell - Travel Recommendation Platform
+
+##  Overview
 
 TraWell is a comprehensive travel recommendation platform built with modern .NET technologies. It provides personalized travel suggestions, hotel bookings, tour packages, and seamless travel planning experiences with advanced authentication and payment integration.
 
-## ✨ Key Features
+##  Key Features
 
 ### 🔐 Authentication & Security
 - **JWT-based Authentication** with role-based access control
@@ -64,7 +66,7 @@ TraWell is a comprehensive travel recommendation platform built with modern .NET
 - **Package Manager**: NuGet
 - **Version Control**: Git
 - **API Documentation**: OpenAPI/Swagger
-
+#
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -100,7 +102,7 @@ TraWell is a comprehensive travel recommendation platform built with modern .NET
 5. **Access the application**
    - Open: `http://localhost:5088`
    - API Documentation: `http://localhost:5088/swagger`
-
+#
 ## ⚙️ Configuration
 
 ### Required Settings
@@ -132,7 +134,7 @@ Create `appsettings.Development.json` with:
 1. Enable 2-factor authentication on Gmail
 2. Generate App Password: Google Account → Security → App passwords
 3. Use the generated password in `EmailSettings.Password`
-
+#
 ## 📚 API Documentation
 
 ### Authentication Endpoints
@@ -147,7 +149,7 @@ Create `appsettings.Development.json` with:
 - `GET /packages` - Tour package catalog
 - `POST /bookings` - Create booking
 - `GET /recommendations` - Personalized suggestions
-
+#
 ## 🗄️ Database Information
 
 ### Database Files
@@ -160,7 +162,7 @@ Create `appsettings.Development.json` with:
 - Hotels & Accommodations
 - Tour Packages & Bookings
 - Reviews & Ratings
-
+#
 ## 🛡️ Security Features
 
 - **Password Hashing** with ASP.NET Core Identity
@@ -169,7 +171,7 @@ Create `appsettings.Development.json` with:
 - **Rate Limiting** for API endpoints
 - **Input Validation** and sanitization
 - **CORS Configuration** for secure cross-origin requests
-
+#
 ## 🧪 Testing
 
 ```bash
@@ -180,7 +182,7 @@ dotnet test
 dotnet test TraWell.Tests/
 dotnet test TraWell.IntegrationTests/
 ```
-
+#
 ## 📦 Deployment
 
 ### Development
@@ -193,7 +195,7 @@ dotnet run --environment Development
 dotnet publish -c Release -o ./publish
 dotnet ./publish/TraWell.dll
 ```
-
+#
 ## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
@@ -204,24 +206,13 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 3. Commit changes (`git commit -m 'Add amazing feature'`)
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
-
+#
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors & Acknowledgments
+#
 
-- **Development Team** - Initial work and ongoing maintenance
-- **Contributors** - Thanks to all contributors who have or will help improve this project
 
-## 🔗 Links
-
-- [Live Demo](https://trawell-demo.azurewebsites.net)
-- [Project Roadmap](https://github.com/smdspace-dev/TraWell)
-
----
-
-<div align="center">
   Made for ❤️  The TraWell Team ( Bengaluru )
   Developed by SMD-Thousif - SWE
-</div>
